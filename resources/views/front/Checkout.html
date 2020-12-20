@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Item Choice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/default_theme.css">
+        <link rel="stylesheet" href="css/hover.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Geostar+Fill|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <!-- font-family: 'Patrick Hand', cursive; -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    </head>
+<body>
+    <!-- Start Navbar Logo -->
+    
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-xs-5">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">zein for online brands</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-7 MyAccount">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Account.html">my account</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span class="badge">0</span>
+                            </a>
+                            <ul class="dropdown-menu" id="linkCart">
+                                <li><a href="#" id="cart1">You Have Nothing In Cart</a></li>
+                                <li><a href="#" id="cart2"></a></li>
+                                <li><a href="#" id="cart3"></a></li>
+                                <li><a href="#" id="cart4"></a></li>
+                            </ul>
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar Logo --> 
+    <!-- Start Navbar -->
+    
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+               </button>
+            </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav links" id="myNavbar">
+              <li class="active" data-value="home"><a href="#" class=" hvr-underline-from-lefts">Home</a></li>
+              <li><a href="#" data-value="About" class=" hvr-underline-from-lefts">About</a></li>
+              <li><a href="#" data-value="men" class=" hvr-underline-from-lefts">Men</a></li>
+              <li><a href="#" data-value="women" class=" hvr-underline-from-lefts">Women</a></li>
+              <li><a href="#" data-value="contact" class=" hvr-underline-from-lefts">contact us</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- start Section Chekout -->
+    
+       <section id="checkout">
+        <div class="container">
+            <h1>Checkout - 1 step of 4</h1>
+            <div class="row">
+               <div class="col-lg-12">
+                   <div class="check">
+                       <ul class="list-unstyled">
+                        <li><a href="#" id="link1">1</a></li>
+                        <li><a href="#" id="link2">2</a></li>
+                        <li><a href="#" id="link3">3</a></li>
+                        <li><a href="#" id="link4">4</a></li>
+                       </ul>
+                       <span>Account Info</span>
+                       <span>Payments</span>
+                       <span>Billings</span>
+                       <span>Confirmation</span>
+                   </div>
+               </div>
+            </div>
+            <div class="row" id="infoForm">
+                <div class="col-lg-6">
+                    <div class="CreateAccount">
+                        <h3>i do not have an account</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <span class="new">create a new account</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <span class="all">All Field are required</span>
+                            </div>
+                        </div>
+                        <form>
+                            <input type="email" name="email" placeholder="Email" class="form-control" id="id1">
+                            <input type="password" name="password" placeholder="password" class="form-control">
+                            <input type="password" name="confirm_password" placeholder="confirm password" class="form-control">
+                            <button type="button" class="btn btn-info btn-lg" onclick="Validate()">Register</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="Login">
+                        <h3>i do a returning customer</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <span class="new">please log in</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <span class="all">All Field are required</span>
+                            </div>
+                        </div>
+                        <form>
+                            <input type="email" name="email" placeholder="Email" class="form-control">
+                            <input type="password" name="password" placeholder="password" class="form-control">
+                            <div class="row">
+                               <div class="col-lg-6">
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="">Remeber me</label>
+                                    </div> 
+                               </div>
+                            <div class="col-lg-6">
+                                <a href="#" class="btn btn-link">Forget your password</a>
+                            </div> 
+                            </div>
+                            <button type="button" class="btn btn-info btn-lg login">login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+       <!-- End Section Chekout --> 
+    <!-- Start Section Payments --> 
+    
+    <section id="payments">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tr>
+                                <th>Select Your Credit And Depit Cards</th>
+                                <th>Name On Card</th>
+                                <th>Expires On</th>
+                            </tr>
+                            <tr>
+                                <td> <div class="checkbox">
+                                    <label><input type="checkbox" name="platform[]" value="Master Card" id="Checkbox1"><img src="image/master.jpg" style="width:30px; height:30px;">&nbsp;<b>Master Card</b> Ending in 4147</label>
+                                </div>
+                                </td>
+                                <td>Merzek Ramadan</td>
+                                <td>02/2020</td>
+                            </tr>
+                            <tr>
+                                <td> <div class="checkbox">
+                                    <label><input type="checkbox" name="platform[]" value="Master Card" id="Checkbox2"><img src="image/master.jpg" style="width:30px; height:30px;">&nbsp;<b>Master Card</b> Ending in 5986</label>
+                                </div>
+                                </td>
+                                <td>Mohammed Hassan</td>
+                                <td>07/2025</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="continue">
+                        <button type="button" class="btn btn-info" onclick="MyPayment();">Continue</button>
+                        <p class="lead">you can review this order before its final</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End Section Payments -->
+    
+    <!-- start Section billings -->
+    
+    <section id="billings">
+        <div class="container">
+            <h2 class="text-center">Billing Information</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="forms">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="text1">Name:</label>
+                                <input type="text" name='fname' class="form-control" id="text1">
+                            </div>
+                            <div class="form-group">
+                                <label for="text2">Address:</label>
+                                <input type="text" class="form-control" id="text2">
+                            </div>
+                            <div class="form-group">
+                                <label for="text3">City:</label>
+                                <input type="text" class="form-control" id="text3">
+                            </div>
+                            <div class="form-group">
+                                <label for="text">State:</label>
+                                <select class="form-group" id="Select1">
+                                    <option value="Minia">Minia</option>
+                                    <option value="Cairo">Cairo</option>
+                                    <option value="Aswan">Aswan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="text4">Zip Code:</label>
+                                <input type="text" class="form-control" id="text4">
+                            </div>
+                            <div class="form-group">
+                                <label for="text">Country:</label>
+                                <select class="form-group" id="Select2">
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="Qatr">Qatr</option>
+                                    <option value="America">America</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="text5">Phone:</label>
+                                <input type="phone" class="form-control" id="text5">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Use This Address For Shipment</label>
+                            </div>
+                            <button class="btn btn-info" id="SendInfo" type='button' onclick="SendInormation();">Continue</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Start Section Confirmation -->
+    
+    <section id="Confirmation">
+        <div class="container">
+            <h2>Review Your order</h2>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="confir">
+                        <h3>Shipping address:</h3>
+                        <ul>
+                            <li class="list"></li>
+                            <li class="list"></li>
+                            <li class="list"></li>
+                            <li class="list"></li>
+                            <li class="list"></li>
+                            <li class="list"></li>
+                            <li class="list"></li>
+                            <li><a href="#" class="btn-link">Change</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="confir">
+                        <h3>Payment information</h3>
+                        <ul>
+                            <li class="payment"></li>
+                            <li><a href="#" class="btn-link">Change</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="confir">
+                        <h3>billing address</h3>
+                        <p>Same as shipping address <a href="#" class="btn-link">Change</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="confir">
+                       <h3>Order Summary</h3>
+                        <p>order total: <span id="TotalPayments"></span></p>
+                        <button class="btn btn-info" type="button">Place Your Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+     <!-- End Section Confirmation -->
+    
+    <!-- Start Footer -->
+    
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">>&nbsp;&nbsp;About Us</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;custome services</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;privacy policy</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;site map</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>why buy from us</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">>&nbsp;&nbsp;shippning & returns</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;secure shopping</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;international shipping</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;affilaites</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;group sales</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">>&nbsp;&nbsp;sign in</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;view cart</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;my wishlist</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;track my order</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>Information</h4>
+                        <form class="form-inline" action="/action_page.php">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email Address">
+                            </div>
+                            <button type="submit" class="btn btn-default">Subscripe</button>
+                        </form>
+                        <p class="lead">Store location: 235 Minia New,
+                        in Minia ,Egypt</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-8 copy">
+                    <p>copyRight &copy; 2019 by <span class="merzek">Merzek Ramadan</span> all rights reserved</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="carts">
+                        <img src="image/master.jpg">
+                        <img src="image/paysera.jpg">
+                        <img src="image/master.jpg">
+                        <img src="image/paysera.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End Footer -->
+<script src="js/plugin.js"></script>
+    <script src="js/Validation.js"></script>
+    <script src="js/Confirm.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>

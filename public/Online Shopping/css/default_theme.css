@@ -1,0 +1,59 @@
+/*Start With Basic Color*/
+
+.navbar-default .navbar-brand {
+    color: #5ca9fb;
+}
+.navbar-inverse{
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+#About .about-text h2::after {
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+#About .about-text button{
+    border: 1px solid #5ca9fb;
+}
+#About .about-text button:hover{
+    background-color: #5ca9fb;
+}
+#men h2::after {
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+#women h2::after {
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+#contact{
+    background:linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+#contact form .btn-custom{
+    background: transparent;
+}
+#contact form .btn-custom:hover{
+    background: #fff;
+    color: #333;
+}
+#footer .footers a{
+    color: #5ca9fb;
+}
+#footer .footers .btn-default{
+    background-color: #5ca9fb;
+}
+.copy .merzek{
+    color: #5ca9fb;
+}
+.option-box .color-option{
+    background: #1075e0;
+    border: 2px solid #8310da;
+}
+.option-box .fa-gear{
+    background: #8310da;
+}
+.hvr-underline-from-lefts:before {
+  background: #8310da;
+}
+#contact .social-icons i:hover{
+    color: #5ca9fb; 
+}
+#men .item i{
+    color: #ffff00d1;
+}
+/*End With Basic Color*/

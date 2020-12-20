@@ -1,0 +1,1169 @@
+/*Start Navbar Logo*/
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+
+
+.navbar-default .MyAccount .navbar-nav>li>a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+    line-height: 1.5;
+}
+
+.navbar-default .MyAccount .navbar-nav>li>a .badge {
+    margin-bottom: 6px;
+    margin-left: -3px;
+
+    font-size: 12px;
+    background-color: #444;
+}
+
+.navbar-default .MyAccount .navbar-nav>li>a .fa-shopping-cart {
+    font-size: 25px !important;
+}
+
+.navbar-default .MyAccount .navbar-nav>li>a.sign_option {
+    background-color: transparent;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 17px;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 8px 2px 0px !important;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-default .MyAccount .navbar-nav>li>a.sign_option:hover {
+    background-color: #5ca9fb;
+    color: #FFF;
+}
+
+/*End Navbar Logo*/
+/*Start option-box*/
+
+.option-box {
+    position: fixed;
+    top: 120px;
+    left: 0px;
+    z-index: 9999;
+}
+
+.option-box .color-option {
+    float: left;
+    color: #fff;
+    padding: 7px;
+    width: 150px;
+    display: none;
+}
+
+.option-box .fa-gear {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 2px;
+    position: absolute;
+    background-color: #0084FF !important;
+}
+
+.option-box ul li {
+    margin-right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #f00;
+}
+
+/*End option-box*/
+/*Start Navbar*/
+/*.navbar-inverse .navbar-nav>a{
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+}
+.navbar-inverse .navbar-nav .active,
+.navbar-inverse .navbar-nav a:hover{
+    border-bottom: 2px solid #000000b8;
+}*/
+.navbar-inverse {
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    border: #000;
+    border-radius: 0px;
+    margin-bottom: 4px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fffffff0;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background: #fff;
+    color: #111;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #1010100d;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+    border: 1px solid #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #0788ef;
+}
+
+/*End Navbar*/
+/*Start Carousel*/
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 70vh;
+
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background: none;
+}
+
+/*End Carousel*/
+
+/* Start About Us */
+
+#About {
+    padding: 60px 0px;
+}
+
+#About img {
+    margin-bottom: 20px;
+}
+
+h2 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+    font-weight: 800;
+    font-size: 36px;
+    color: #333;
+}
+
+#About .about-text h2::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 0;
+}
+
+#About .about-text .lead {
+    line-height: 25px;
+    margin: 16px 0 0px 0px;
+    color: #333;
+}
+
+#About .about-text button {
+    background-color: transparent;
+    color: #333;
+    margin-top: 35px;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+}
+
+#About .about-text button:hover {
+    color: #fff;
+}
+
+/* End About Us */
+/*Start Men Clothes*/
+#Men {
+    padding: 40px 0px;
+}
+
+#men h2::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 492px;
+}
+
+#men .item {
+    background-color: #dddddd87;
+    border: 1px solid #aaaaaaa1;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#men .item p {
+    padding-top: 10px;
+    color: #333;
+    line-height: 25px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#men .item .price {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 30px;
+    color: #444444a8;
+}
+
+#men .item i {
+    font-size: 23px;
+}
+
+#men .item i:last-child {
+    color: #ffffffbf;
+}
+
+#men .item .group {
+    position: relative;
+
+}
+
+#men .item .group img {
+    max-width: 100%;
+}
+
+#men .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*max-width: 250px;
+    max-height: 650px;*/
+    background: #099cc7cf;
+    color: #fff;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    text-align: center;
+}
+
+#men .item .group:hover .over {
+    opacity: 1;
+}
+
+#men .over a i {
+    margin-top: 42%;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    transition: all .5s ease;
+}
+
+#men .over a:hover i {
+    border-color: #333;
+    transform: scale(1.5, 1.5);
+    color: #333;
+}
+
+/*End Men Clothes*/
+/*Start Women Clothes*/
+#women {
+    padding: 40px 0px;
+}
+
+#women h2::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 474px;
+}
+
+#women .item {
+    background-color: #dddddd87;
+    border: 1px solid #aaaaaaa1;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#women .item p {
+    padding-top: 10px;
+    color: #333;
+    line-height: 25px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#women .item .price {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 30px;
+    color: #444444a8;
+}
+
+#women .item i {
+    color: #ffff00d1;
+    font-size: 23px;
+}
+
+#women .item i:last-child {
+    color: #ffffffbf;
+}
+
+#women .item .group {
+    position: relative;
+
+}
+
+#women .item .group img {
+    max-width: 100%;
+}
+
+#women .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*max-width: 250px;
+    max-height: 650px;*/
+    background: #099cc7cf;
+    color: #fff;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    text-align: center;
+}
+
+#women .item .group:hover .over {
+    opacity: 1;
+}
+
+#women .over a i {
+    margin-top: 42%;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    transition: all .5s ease;
+}
+
+#women .over a:hover i {
+    border-color: #333;
+    transform: scale(1.5, 1.5);
+    color: #333;
+}
+
+/*Start Contact*/
+
+#contact {
+    padding: 40px 0px;
+    color: #fff;
+}
+
+#contact h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#contact p {
+    font-size: 20px;
+    margin-bottom: 21px;
+    color: #ffffffa8;
+    text-transform: capitalize
+}
+
+#contact form .form-control {
+    margin-bottom: 20px;
+}
+
+#contact form input[placeholder],
+#contact form textarea[placeholder] {
+    font-size: 20px;
+}
+
+#contact form .btn-custom {
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 14px 34px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+#contact .contact-item h3 {
+    margin-top: 80px;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+#contact .contact-item span {
+    display: block;
+    font-size: 19px;
+}
+
+#contact .contact-item i {
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+hr {
+    border: 1px solid #ffffff3d;
+}
+
+#contact .social-icons {
+    overflow: hidden;
+    padding: 40px 0px 20px;
+}
+
+#contact .social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#contact .social-icons li i {
+    color: #fff;
+    font-size: 22px;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 50%;
+    max-width: 60px;
+    max-height: 60px;
+    line-height: 14px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#contact .social-icons i:hover {
+    background: #fff;
+    color: #5ca9fb;
+}
+
+/*End Contact*/
+/*Start Footer*/
+#footer {
+    padding: 20px 0px;
+    background-color: #f8f8f8;
+}
+
+#footer .footers h4 {
+    letter-spacing: 2px;
+    font-size: 21px;
+    color: #333333b5;
+    border-bottom: 1px solid #3333335c;
+    padding: 7px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#footer .footers li {
+    display: block;
+    margin-bottom: 6px;
+}
+
+#footer .footers a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#footer .footers a:hover {
+    color: #333333b5;
+}
+
+#footer .footers .btn-default {
+    color: #fff;
+    background-color: #5ca9fb;
+
+}
+
+#footer .footers .lead {
+    padding: 20px 0px;
+    color: #666;
+    font-size: 17px
+}
+
+.copy p {
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.carts img {
+    max-width: 70px;
+    margin-right: 10px;
+}
+
+#footer hr {
+    border: 1px solid #aaa;
+}
+
+/*End Footer*/
+/*Start Item-Choice*/
+
+#Item-Choice {
+    padding: 40px 0px;
+}
+
+#Item-Choice .Button-Return,
+#Item-Choice .Button-Add {
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    background: transparent;
+    color: #5ca9fb;
+    transition: all 1s ease;
+}
+
+#Item-Choice .Button-Add {
+    width: 120px;
+}
+
+#Item-Choice .Button-Return:hover,
+#Item-Choice .Button-Add:hover {
+    background: #5ca9fb;
+    color: #fff;
+}
+
+#CheckoutBtn {
+    background-color: #5ca9fb;
+    width: 100px;
+    margin-left: 30px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    display: none;
+}
+
+/*End Item-Choice*/
+/*Start Section checkout*/
+#checkout {
+    padding: 30px 0px;
+}
+
+#checkout h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #5ca9fb;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#checkout .check {
+    overflow: hidden;
+}
+
+#checkout .check li {
+    display: inline-block;
+    width: 24.5%;
+}
+
+#checkout .check li:last-child::after {
+    content: "";
+}
+
+#checkout .check li a {
+    border: 1px solid #5ca9fb;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    background: #5ca9fb;
+}
+
+#checkout .check span {
+    display: inline-block;
+    width: 24.5%;
+    font-size: 23px;
+    color: #333333d6;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*End Section checkout*/
+/*Start Section Infom*/
+#infoForm {
+    padding: 30px 0px;
+}
+
+#infoForm h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5ca9fb;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#infoForm .lead {
+    color: #333;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+
+#infoForm .new {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#infoForm .all {
+    display: inline-block;
+    margin-top: 6px;
+    width: 100%;
+    margin-left: 93px;
+}
+
+#infoForm input[type="email"],
+#infoForm input[type="password"] {
+    margin-bottom: 20px;
+}
+
+#infoForm .btn-info,
+.login {
+    background: transparent;
+    width: 150px;
+    color: #5ca9fb;
+    font-size: 24px;
+    border-radius: 25px;
+    transition: all 1s ease;
+}
+
+#infoForm .login {
+    margin-top: 15px;
+}
+
+#infoForm .btn-info:hover,
+#infoForm .login:hover {
+    background: #5ca9fb;
+    color: #fff;
+}
+
+/*End Section Infom*/
+/*Start Section Payments*/
+#payments {
+    padding: 40px 0px;
+}
+
+#payments .btn-info {
+    width: 135px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #5ca9fb;
+    transition: all 1s ease;
+    color: #5ca9fb;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+#payments .btn-info+p {
+    color: #333333cf;
+    text-transform: capitalize;
+}
+
+#billings input[type="checkbox"] {
+    margin-top: 7px;
+}
+
+/*End Section Payments*/
+
+/*Start Section Billings*/
+
+#billings {
+    padding: 40px 0px;
+}
+
+#billings select {
+    width: 360px;
+}
+
+#billings label {
+    font-size: 18px;
+}
+
+#billings .btn-info {
+    width: 135px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid #5ca9fb;
+    transition: all 1s ease;
+    color: #5ca9fb;
+}
+
+#billings .btn-info:hover,
+#payments .btn-info:hover {
+    background-color: #5ca9fb;
+    color: #fff;
+}
+
+/*End Section Billings*/
+/*Start Section Confirmation*/
+
+#Confirmation {
+    padding: 40px 0px;
+}
+
+#Confirmation .confir h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #333c;
+}
+
+#Confirmation .confir li {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: italic;
+    color: #333;
+    list-style: none;
+}
+
+#Confirmation .confir .btn-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+#Confirmation .confir .btn-link:hover {
+    color: #5ca9fb;
+}
+
+#Confirmation .confir .btn-info {
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    border: 1px solid #5ca9fb;
+    padding: 10px 12px;
+    color: #5ca9fb;
+    margin: 70px 0px 0px;
+    border-radius: 7px;
+    transition: all 1s linear;
+}
+
+#Confirmation .confir .btn-info:hover {
+    color: #fff;
+    background: #5ca9fb;
+}
+
+/*End section Confirmation*/
+
+
+/*Start section Account*/
+
+#account .acc {
+    border: 1px solid #5ca9fb;
+    border-radius: 3px;
+}
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+
+/*.profile-picture{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}*/
+input[type=file] {
+    display: none;
+}
+
+.circle {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #5ca9fb;
+    position: absolute;
+    top: 110px;
+    left: 140px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-image {
+    color: #666666;
+    transition: all .3s linear;
+    position: absolute;
+    top: 215px;
+    left: 225px;
+    cursor: pointer;
+}
+
+.p-image:hover {
+    transition: all .3s linear;
+}
+
+.upload-button {
+    font-size: 1.7em;
+}
+
+.upload-button:hover {
+    transition: all .3s linear;
+    color: #999;
+}
+
+.sqaure {
+    overflow: hidden;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #5ca9fb;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.s-image {
+    color: #666666;
+    transition: all .3s linear;
+    position: absolute;
+    top: 141px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.s-image:hover {
+    transition: all .3s linear;
+}
+
+.s-image .uploaded-button {
+    font-size: 1.7em;
+}
+
+.s-image .uploaded-button:hover {
+    transition: all .3s linear;
+    color: #999;
+}
+
+#account ul li {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: #000000ed;
+    text-transform: capitalize;
+}
+
+#account ul li:first-child {
+    margin-top: 15px;
+}
+
+.emailData {
+    text-align: center;
+    margin-top: 91px;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.panel-title>.small,
+.panel-title>.small>a,
+.panel-title>a,
+.panel-title>small,
+.panel-title>small>a {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000000ed;
+    text-transform: capitalize;
+}
+
+#account ul .btn {
+    background-color: #5ca9fb;
+    font-size: 15px;
+    width: 100px;
+    padding: 5px
+}
+
+#account .btn1 {
+    background: #38A1F3;
+    margin: 10px;
+}
+
+#account .btn2 {
+    background: #0084FF;
+    margin: 10px 0px 10px 53px;
+}
+
+a.fb-msg-btn {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    margin: 0;
+    background-color: #0084ff;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+a:hover.fb-msg-btn {
+    background-color: #0268c7;
+}
+
+/*End section Account*/
+
+
+/*Start Media */
+@media(max-width:528px) {
+
+    #men .item,
+    #women .item {
+        width: 100%;
+        height: 390px;
+
+    }
+
+    #men .item img,
+    #women .item img {
+        width: 251px;
+        height: 251px;
+    }
+
+    .circle {
+        left: 180px;
+    }
+
+    .p-image {
+        left: 270px;
+    }
+
+    #account .btn2 {
+        margin: 10px 0px 10px 146px;
+    }
+
+    /*#men .col-lg-3,
+    #women .col-lg-3{
+        width: 370px;
+    }*/
+    #checkout h1 {
+        font-size: 20px;
+    }
+
+    #checkout .check li,
+    #checkout .check span {
+        width: 20%;
+        font-size: 10px;
+        margin-left: 11px;
+    }
+
+    #checkout .check li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #infoForm .all {
+        display: none;
+    }
+
+    #infoForm input[type="email"],
+    #infoForm input[type="password"] {
+        width: 100%;
+    }
+
+    .option-box {
+        position: fixed;
+        top: 150px;
+        left: 0px;
+        z-index: 9999;
+    }
+
+    #contact,
+    #footer {
+        width: 100%;
+    }
+
+    #About .about-text h2::after,
+    #women h2::after,
+    #men h2::after {
+        display: none;
+    }
+
+    .navbar-inverse {
+        text-align: center;
+
+    }
+
+    .navbar-inverse .navbar-nav .active,
+    .navbar-inverse .navbar-nav a:hover {
+        border-bottom: none;
+    }
+
+    .navbar-inverse .btn-default {
+        width: 100%;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 7px 34px;
+        letter-spacing: 1px;
+        margin: 0;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 25px;
+        transition: all 0.5s linear;
+        cursor: pointer;
+    }
+
+    .navbar-inverse .btn-default:hover {
+        background: #fff;
+        color: #333;
+    }
+
+    .navbar,
+    #About,
+    .carousel {
+        width: 100%;
+    }
+
+    #Item-Choice .Button-Return,
+    #Item-Choice .Button-Add {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #Item-Choice .item-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #Item-Choice .table-responsive {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a:hover {
+        color: #fff;
+        background: #333;
+        ;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 15px;
+    }
+
+    #infoForm .lead {
+        width: 100%;
+    }
+
+    .table-responsive {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .forms .form-control {
+        width: 100%;
+    }
+
+    #Select1 {
+        width: 100% !important;
+    }
+
+    #Select2 {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:1202px) {
+
+    #Item-Choice .Button-Return,
+    #Item-Choice .Button-Add {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/*End Media*/
+
+/* Underline From Left */
+.hvr-underline-from-lefts {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-lefts:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-lefts:hover:before,
+.hvr-underline-from-lefts:focus:before,
+.hvr-underline-from-lefts:active:before {
+    right: 0;
+}

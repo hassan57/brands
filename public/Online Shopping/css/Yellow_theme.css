@@ -1,0 +1,59 @@
+/*Start With Basic Color*/
+
+.navbar-default .navbar-brand {
+    color: #FF9800;
+}
+.navbar-inverse{
+    background-image: linear-gradient(to right, #FF9800 0%, #FF9800 100%);
+}
+#About .about-text h2::after {
+    background: linear-gradient(to right, #FF9800 0%, #FF9800 100%);
+}
+#About .about-text button{
+    border: 1px solid #FF9800;
+}
+#About .about-text button:hover{
+    background-color: #FF9800;
+}
+#men h2::after {
+    background: linear-gradient(to right, #FF9800 0%, #FF9800 100%);
+}
+#women h2::after {
+    background: linear-gradient(to right, #FF9800 0%, #FF9800 100%);
+}
+#contact{
+    background:linear-gradient(to right, #FF9800 0%, #FF9800 100%);
+}
+#contact form .btn-custom{
+    background: transparent;
+}
+#contact form .btn-custom:hover{
+    background: #fff;
+    color: #333;
+}
+#footer .footers a{
+    color: #FF9800;
+}
+#footer .footers .btn-default{
+    background-color: #FF9800;
+}
+.copy .merzek{
+    color: #FF9800;
+}
+.option-box .color-option{
+    background: #FF9800;
+    border: 2px solid #FF9800;
+}
+.option-box .fa-gear{
+    background: #FF9800;
+}
+.hvr-underline-from-lefts:before {
+  background: #8310da;
+}
+#contact .social-icons i:hover{
+    color: #FF9800; 
+}
+#men .item i{
+    color: #FF9800;
+}
+/*End With Basic Color*/

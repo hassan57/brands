@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Account</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/hover.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Geostar+Fill|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <!-- font-family: 'Patrick Hand', cursive; -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    </head>
+<body>
+    <!-- Start Navbar Logo -->
+    
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-xs-5">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">zein for online brands</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-7 MyAccount">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">my account</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span class="badge">0</span>
+                            </a>
+                            <ul class="dropdown-menu" id="linkCart">
+                                <li> <button type="button" class="btn btn-info" id="CheckoutBtn">Chechkout</button></li>
+                                <li><a href="#" id="cart1">You Have Nothing In Cart</a></li>
+                                <li><a href="#" id="cart2"></a></li>
+                                <li><a href="#" id="cart3"></a></li>
+                                <li><a href="#" id="cart4"></a></li>
+                            </ul>
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar Logo --> 
+    
+    <!-- Start Navbar -->
+    
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+               </button>
+            </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav links" id="myNavbar">
+              <li class="active" data-value="home"><a href="#" class=" hvr-underline-from-lefts">Home</a></li>
+              <li><a href="#" data-value="About" class=" hvr-underline-from-lefts">About</a></li>
+              <li><a href="#" data-value="men" class=" hvr-underline-from-lefts">Men</a></li>
+              <li><a href="#" data-value="women" class=" hvr-underline-from-lefts">Women</a></li>
+              <li><a href="#" data-value="contact" class=" hvr-underline-from-lefts">contact us</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    
+    
+    <!-- Start Account Card -->
+    
+    <section id="account" style="padding:60px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    
+                </div>
+                
+                
+                <div class="col-lg-4" style="position:relative;">
+                    <div class="acc">
+                        
+                        <div class="sqaure">
+                           <img class="profile-picture" src="http://cdn.cutestpaw.com/wp-content/uploads/2012/07/l-Wittle-puppy-yawning.jpg">
+                         </div>
+                        
+                         <div class="s-image">
+                            <i class="fa fa-camera uploaded-button"></i>
+                            <input class="file-uploaded" type="file" accept="image/*"/>
+                         </div>
+                        
+                        <div class="circle">
+                           <img class="profile-pic" src="http://cdn.cutestpaw.com/wp-content/uploads/2012/07/l-Wittle-puppy-yawning.jpg">
+                         </div>
+                        
+                         <div class="p-image">
+                            <i class="fa fa-camera upload-button"></i>
+                            <input class="file-upload" type="file" accept="image/*"/>
+                         </div>
+                        <div class="emailData">
+                            name
+                        </div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="panel-group">
+                                      <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                          <h4 class="panel-title">
+                                            <a data-toggle="collapse" href="#collapse1">change Email</a>
+                                          </h4>
+                                        </div>
+                                        <div id="collapse1" class="panel-collapse collapse">
+                                          <div class="panel-body">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter New Email">
+                                            </div>
+                                          </div>
+                                            <div class="panel-footer"><button class="btn btn-info">Save</button></div>
+                            </li>
+                            <li>
+                                <div class="panel-group">
+                                      <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                          <h4 class="panel-title">
+                                            <a data-toggle="collapse" href="#collapse2">change password</a>
+                                          </h4>
+                                        </div>
+                                        <div id="collapse2" class="panel-collapse collapse">
+                                          <div class="panel-body">
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="pass" placeholder="Enter Older Pasword" name="password">
+                                            </div>
+                                          </div>
+                                            <div class="panel-body">
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="pass" placeholder="Enter New Pasword" name="newPassword">
+                                            </div>
+                                          </div>
+                                            <div class="panel-body">
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="pass" placeholder="Confirm New Pasword" name="confirmPassword">
+                                            </div>
+                                          </div>
+                                          <div class="panel-footer"><button class="btn btn-info">Save</button></div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="https://www.twitter.com" class="fb-msg-btn btn1" target="_blank">Follow us on Twitter</a>
+                        <a href="https://m.me/your-profile-username" class="fb-msg-btn btn2" target="_blank">Message us on Facebook</a>
+
+                    </div>
+                </div>
+                
+                
+                <div class="col-lg-4">
+                   
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <!-- End Account Card -->
+        
+     <!-- Start Footer -->
+    
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">>&nbsp;&nbsp;About Us</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;custome services</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;privacy policy</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;site map</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>why buy from us</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">>&nbsp;&nbsp;shippning & returns</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;secure shopping</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;international shipping</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;affilaites</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;group sales</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">>&nbsp;&nbsp;sign in</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;view cart</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;my wishlist</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;track my order</a></li>
+                            <li><a href="#">>&nbsp;&nbsp;help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footers">
+                        <h4>Information</h4>
+                        <form class="form-inline" action="/action_page.php">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email Address">
+                            </div>
+                            <button type="submit" class="btn btn-default">Subscripe</button>
+                        </form>
+                        <p class="lead">Store location: 235 Minia New,
+                        in Minia ,Egypt</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-8 copy">
+                    <p>copyRight &copy; 2019 by <span class="merzek">Merzek Ramadan</span> all rights reserved</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="carts">
+                        <img src="image/master.jpg">
+                        <img src="image/paysera.jpg">
+                        <img src="image/master.jpg">
+                        <img src="image/paysera.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End Footer -->
+<script src="js/plugin.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>
